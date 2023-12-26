@@ -1,0 +1,11 @@
+h1 {
+    font-family: 'Carattere', cursive;
+    margin: auto;
+    color: white;
+    font-size: 168px;
+}
+
+div.container {
+    width: 100%;
+    text-align: center;
+}
