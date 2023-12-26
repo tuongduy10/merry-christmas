@@ -1,11 +1,29 @@
 h1 {
-    font-family: 'Carattere', cursive;
-    margin: auto;
-    color: white;
-    font-size: 168px;
+  font-family: "Carattere", cursive;
+  margin: auto;
+  color: white;
+  font-size: 168px;
 }
 
 div.container {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
+  padding: 12px 10px;
+}
+
+
+h2 {
+    font-family: "Carattere", cursive;
+    color: #ab3031;
+    margin: auto;
+    font-size: 108px;
+
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 108px;
+  }
+  h2 {
+    font-size: 48px;
+  }
 }

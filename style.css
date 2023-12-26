@@ -518,3 +518,19 @@ body {
 .snowflake:nth-child(6n) {
   filter: blur(1px);
 }
+
+.image-container {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    border: 5px solid white;
+    transform: rotate(20deg);
+}
+.image-wrapper {
+    width: 200px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+}
